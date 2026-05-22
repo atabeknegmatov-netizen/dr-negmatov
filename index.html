@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dr. Negmatov Ismatillo - Травматолог Ортопед</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+        }
+        
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        header {
+            background: white;
+            border-radius: 10px;
+            padding: 40px;
+            margin-bottom: 30px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+            text-align: center;
+        }
+        
+        .profile-pic {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            background: #667eea;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 20px;
+            color: white;
+            font-size: 60px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+        
+        h1 {
+            color: #667eea;
+            margin-bottom: 10px;
+            font-size: 2.5em;
+        }
+        
+        .title {
+            color: #764ba2;
+            font-size: 1.3em;
+            margin-bottom: 15px;
+            font-weight: 600;
+        }
+        
+        .bio {
+            color: #666;
+            font-size: 1em;
+            margin: 20px 0;
+            line-height: 1.8;
+        }
+        
+        .contact {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 20px;
+            flex-wrap: wrap;
+        }
+        
+        .contact a {
+            color: #667eea;
+            text-decoration: none;
+            font-weight: 600;
+            transition: color 0.3s;
+        }
+        
+        .contact a:hover {
+            color: #764ba2;
+        }
+        
+        .section {
+            background: white;
+            border-radius: 10px;
+            padding: 30px;
+            margin-bottom: 20px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+        }
+        
+        .section h2 {
+            color: #667eea;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 3px solid #667eea;
+            font-size: 1.8em;
+        }
+        
+        .skills {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+        }
+        
+        .skill-item {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 15px;
+            border-radius: 8px;
+            text-align: center;
+            font-weight: 600;
+            transition: transform 0.3s;
+        }
+        
+        .skill-item:hover {
+            transform: translateY(-5px);
+        }
+        
+        .timeline-item {
+            margin-bottom: 25px;
+            padding-left: 30px;
+            border-left: 4px solid #667eea;
+        }
+        
+        .timeline-item h3 {
+            color: #667eea;
+            margin-bottom: 5px;
+        }
+        
+        .timeline-item .date {
+            color: #999;
+            font-size: 0.9em;
+            margin-bottom: 8px;
+        }
+        
+        .timeline-item p {
+            color: #666;
+            line-height: 1.6;
+        }
+        
+        .achievement {
+            background: #f8f9fa;
+            padding: 15px;
+            border-radius: 8px;
+            margin-bottom: 15px;
+            border-left: 4px solid #667eea;
+        }
+        
+        .achievement h4 {
+            color: #667eea;
+            margin-bottom: 5px;
+        }
+        
+        .achievement p {
+            color: #666;
+            font-size: 0.95em;
+        }
+        
+        footer {
+            background: rgba(255,255,255,0.1);
+            color: white;
+            text-align: center;
+            padding: 20px;
+            border-radius: 10px;
+            margin-top: 30px;
+        }
+        
+        @media (max-width: 768px) {
+            header {
+                padding: 25px;
+            }
+            
+            h1 {
+                font-size: 1.8em;
+            }
+            
+            .section {
+                padding: 20px;
+            }
+            
+            .skills {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="profile-pic">👨‍⚕️</div>
+            <h1>Negmatov Ismatillo</h1>
+            <p class="title">Травматолог • Ортопед • Артроскопист</p>
+            <p class="bio">
+                Я врач и тренер, увлекаюсь футболом и преданно болею за Manchester United. 
+                В работе ценю дисциплину, точность и постоянное развитие, а в жизни главным считаю свою семью. 
+                Днём травматология и реабилитация, вечером футбол и попытки объяснить людям, 
+                что «Манчестер Юнайтед» ещё вернётся.
+            </p>
+            <div class="contact">
+                <a href="mailto:atabek_negmatov@mail.ru">📧 atabek_negmatov@mail.ru</a>
+                <a href="tel:+998904708808">📱 +998 90 470 88 08</a>
+                <a href="https://instagram.com/dr.negmatov" target="_blank">📸 @dr.negmatov</a>
+            </div>
+        </header>
+        
+        <section class="section">
+            <h2>💼 Компетенции</h2>
+            <div class="skills">
+                <div class="skill-item">Артроскопическая хирургия</div>
+                <div class="skill-item">Реабилитация</div>
+                <div class="skill-item">Тренерская работа</div>
+                <div class="skill-item">Спортивная медицина</div>
+                <div class="skill-item">Диагностика травм</div>
+                <div class="skill-item">Физиотерапия</div>
+            </div>
+        </section>
+        
+        <section class="section">
+            <h2>🎓 Образование</h2>
+            <div class="timeline-item">
+                <h3>Санкт-Петербургский государственный педиатрический медицинский университет</h3>
+                <p class="date">2020</p>
+                <p>Специальность: Лечебное дело</p>
+            </div>
+            <div class="timeline-item">
+                <h3>Самарский государственный медицинский университет</h3>
+                <p class="date">2022</p>
+                <p>Специализация: Травматология и ортопедия</p>
+            </div>
+        </section>
+        
+        <section class="section">
+            <h2>👨‍💼 Опыт работы</h2>
+            <div class="timeline-item">
+                <h3>Травматолог-ортопед</h3>
+                <p class="date">С 2022 года</p>
+                <p>Областная больница травматологии и ортопедии</p>
+                <p style="margin-top: 10px; font-size: 0.95em;">
+                    Ведение пациентов с травмами опорно-двигательного аппарата, проведение артроскопических операций, 
+                    организация процесса реабилитации, работа с профессиональными спортсменами и любителями спорта.
+                </p>
+            </div>
+        </section>
+        
+        <section class="section">
+            <h2>🏆 Достижения и публикации</h2>
+            <div class="achievement">
+                <h4>Научные публикации в Scopus</h4>
+                <p>Несколько статей опубликовано в международных рецензируемых журналах</p>
+            </div>
+            <div class="achievement">
+                <h4>Специализация</h4>
+                <p>Прошёл обучение по артроскопической хирургии и спортивной медицине</p>
+            </div>
+        </section>
+        
+        <footer>
+            <p>&copy; 2025 Negmatov Ismatillo. Все права защищены.</p>
+            <p>Создано с ❤️ на GitHub Pages</p>
+        </footer>
+    </div>
+</body>
+</html>
